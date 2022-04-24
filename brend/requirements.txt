@@ -1,7 +1,0 @@
-heroku3>=4.2.3
-Telethon==1.24.0
-bs4
-wheel
-requests
-rich
-gitpython
