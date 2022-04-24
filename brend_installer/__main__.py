@@ -87,7 +87,7 @@ if __name__ == "__main__":
     #It is forbidden to copy this code
     if os.path.isdir("./brenduserbot/"):
         rm_r("./brenduserbot/")
-    repo = eval('Repo.clone_from("https://github.com/brendsupport/brenduserbot", "./brenduserbot/", branch="master")')
+    repo = eval('Repo.clone_from("https://github.com/elcjn/brenduserbot", "./brenduserbot/", branch="master")')
     ela(LANG['DOWNLOADED'])
     vacib(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
